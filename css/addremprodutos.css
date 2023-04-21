@@ -1,0 +1,309 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+
+}
+
+button,fieldset,input{
+
+    border-radius: 6px;
+
+}
+
+#buttonsair:enabled:hover,
+#buttonvoltar:enabled:hover, 
+#adicionarproduto:enabled:hover, 
+#adicionar:enabled:hover, 
+#alterarproduto:enabled:hover,
+.editarproduto:enabled:hover,
+.removerproduto:enabled:hover{
+
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+ 
+#adicionarproduto:disabled, 
+#adicionar:disabled, 
+#alterarproduto:disabled,
+.editarproduto:disabled,
+.removerproduto:disabled{
+
+    cursor: not-allowed;
+    background-color: #cbbaff;
+
+}
+
+
+
+#buttonsair,
+#buttonvoltar
+{
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+#campobuttons {
+
+    position: absolute;
+    top: 0;
+    margin: 19.2px;
+}
+
+.fa-solid.fa-magnifying-glass.fa-sm{
+
+    position: relative;
+    bottom:1px
+
+}
+
+#labelprocurar{
+
+    font-family: impact;
+    font-weight: 100;
+    margin-left: 0.3em;
+    
+}
+
+#labelicon1{
+
+    font-family: impact;
+    font-weight: 100;
+    margin-right: auto;
+    margin-left: 0.3em;
+    margin-top: 0.1em;
+    margin-bottom: 1.5em;
+
+}
+
+.fa-solid.fa-circle.fa-2xs{
+
+    margin-top: 1em;
+    margin-right: 0.5em;
+
+}
+
+#procurar{
+
+    position: relative;
+    bottom:1px
+
+}
+
+body {
+
+    background-color: #ded6ee;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #59429d;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+
+.fa-solid.fa-bag-shopping {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#titulo {
+
+    margin: auto;
+    display: block;
+    padding-bottom: 1em;
+
+}
+
+#fieldsearch{
+
+    margin: auto;
+    padding: auto;
+    
+}
+
+fieldset{
+
+    background-color: #e2e1e4;
+    border: 1;
+    width: 570px;
+    padding: 0.2em;
+    margin: auto;
+    margin-top: 1.5em;
+
+}
+
+input:focus {
+
+    background: #E0E0F8;
+
+}
+
+ol{
+
+    list-style-position: inside;
+
+}
+
+li{
+
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+
+}
+
+ol li::marker{
+
+    color: red;
+
+}
+
+#adicionarproduto, .editarproduto, .removerproduto{
+
+    font-size: 0.8em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+#adicionarproduto{
+
+    float: right;
+    margin-right: 0.3em;
+
+}
+
+#buttonsproduto{
+
+    float: right;
+    margin-right: 0.3em;
+
+}
+
+.fa-solid.fa-pen-to-square.fa-xs{
+
+    margin-left: 0.2em;
+
+}
+
+.fa-solid.fa-trash.fa-xs{
+
+    color: #ff0000;
+    margin-left: 0.2em;
+
+}
+
+.window{
+
+    display:none;
+    width:300px;
+    height:300px;
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    background-color: #e2e1e4;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+
+}
+
+#mascara{
+
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+
+}
+
+#divtitulomodal{
+
+    text-align: center; 
+    margin-top: 1em;
+    right: 0;
+    margin-left: 1em;
+
+}
+
+
+#buttonfechar{
+
+    border:0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    float: right;
+    margin: 0;
+    transition: transform .2s;
+
+}
+
+#buttonfechar:hover{
+
+    transform: scale(1.5);
+
+}
+
+#fieldmodal{
+
+    background-color: #d2c1f5;
+    width: auto;
+    margin-top: 0em;
+    text-align: center;
+    height: 205px;
+    
+}
+
+form {
+
+    margin-top: 0.5em;
+
+}
+
+#adicionar,
+#alterarproduto {
+
+    font-size: 1em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 5em;
+
+}
+
+input[type='text'],
+input[type='number']{
+
+    width:150px;
+    height:14px;
+    padding: 0.25em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
