@@ -1,0 +1,131 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+
+}
+
+.fa-layers.fa-fw {
+
+    display: flex;
+    float: left;
+    margin: 1.5em
+}
+
+.fa-solid.fa-cart-shopping {
+
+    padding-right: 0.2em
+}
+
+#linha-vertical {
+
+    height: 50px;
+    border-right: 2px solid;
+    color: #380b61;
+    padding: 0.1em;
+}
+
+#titulo {
+    
+    margin: auto;
+    display: block;
+    padding-left: 0.5em;
+
+}
+
+#subtitulo {
+
+    font-family: Helvetica;
+    color: #380b61;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+form {
+
+    display: grid;
+    place-items: center;
+    margin-top: 11%;
+
+}
+
+body {
+
+    background-color: #ded6ee;
+    font-family: sans-serif;
+    color: #59429d;
+    margin-top: 1%;
+    justify-content: center;
+
+}
+
+input,
+button {
+
+    border-radius: 6px;
+
+}
+
+i.fa-solid.fa-user,
+i.fa-solid.fa-key {
+
+    margin-right: 0.4em;
+
+}
+
+#campologin {
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1;
+    width: 400px;
+    height: 400px;
+    background-color: #e2e1e4;
+
+}
+
+input[type='text'],
+input[type='password'] {
+
+    padding: 0.25em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+input:focus {
+
+    background: #E0E0F8;
+
+}
+
+#entrar {
+
+    font-size: 1.5em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 13%;
+
+}
+
+#entrar:hover {
+
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
