@@ -1,0 +1,111 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+
+}
+
+body {
+
+    background-color: #ded6ee;
+    font-family: sans-serif;
+    color: #59429d;
+    margin-top: 1%;
+    justify-content: center; 
+
+}
+
+#buttonsair{
+
+    position: absolute;
+    top: 0;
+    margin: 1em;
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.fa-solid.fa-address-card{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#simbolo{
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+}
+
+#subtitulo {
+
+    font-family: Helvetica;
+    color: #380b61;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 0.5em;
+    
+}
+
+button{
+
+    border-radius: 6px;
+
+}
+
+button:enabled:hover, #buttonsair:hover{
+
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+.buttonpainel:disabled{
+
+    cursor: not-allowed;
+    background-color: #cbbaff;
+
+}
+
+#campopainel{
+
+    position: absolute;
+    top:0;
+    bottom:0; 
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    border: 1;
+    width: 400px;
+    height: 400px;
+    background-color: #e2e1e4;
+
+}
+
+.buttonpainel{
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 1.7em;
+
+}
+
