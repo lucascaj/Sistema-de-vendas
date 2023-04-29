@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+}
+
+#campobuttons {
+
+    position: absolute;
+    top: 0;
+    margin: 19.2px;
+}
+
+#buttonsair:hover,
+#buttonvoltar:hover {
+
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+#buttonsair,
+#buttonvoltar {
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.3em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.fa-solid.fa-cart-shopping {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#titulo {
+
+    margin: auto;
+    display: block;
+
+}
+
+form {
+
+    display: grid;
+    place-items: center;
+
+}
+
+#labelicon1,
+#labelicon2 {
+
+    font-family: Impact;
+    font-weight: 100;
+    display: flex;
+    margin-right: auto;
+    margin-left: 0.3em;
+    margin-top: 0.1em;
+}
+
+.fa-solid.fa-circle.fa-2xs {
+
+    margin-top: 1em;
+
+}
+
+#label1,
+#label2 {
+
+    margin-left: 0.3em;
+    margin-top: auto;
+}
+
+
+fieldset {
+
+    border: 1;
+    width: 570px;
+    padding: 0.2em;
+
+}
+
+#fieldform {
+
+    margin: auto;
+    background: #e2e1e4;
+    padding-top: 0.9em;
+    margin-top: 3em;
+
+}
+
+#fieldset1,
+#fieldset3 {
+
+    background-color: #d2c1f5;
+    margin-top: 1em;
+
+}
+
+#fieldsetproduto1{
+
+    margin-top: 0.95em;
+
+}
+
+#fieldset2{
+
+    border: 0;
+    background-color: transparent;
+
+}
+
+body {
+
+    background-color: #ded6ee;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #59429d;
+    margin-top: 2%;
+    justify-content: center;
+
+}
+
+input,
+button,
+fieldset {
+
+    border-radius: 6px;
+
+}
+
+.campo {
+
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-left: 1em;
+
+}
+
+.campo label {
+
+    color: #59429d;
+    display: block;
+
+}
+
+
+
+fieldset .campo {
+
+    float: left;
+    margin-right: 0.5em;
+
+}
+
+.campo input[type='number'],
+.campo input[type='search'],
+.campo input[type='date'] {
+
+    padding: 0.25em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.campo input:focus {
+
+    background: #E0E0F8;
+
+}
+
+#valorunitario {
+
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+
+}
+
+#valorfinal {
+
+    margin-left: 1em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    font-weight: 600;
+
+}
+
+#adicionarproduto {
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.5em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    top: 50%;
+    left: 30%;
+    margin-right: -50%;
+
+}
+
+.removerproduto {
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-top: 2em;
+    margin-left: 1em;
+
+}
+
+.fa-solid.fa-trash {
+
+    color: #ff0000;
+    margin-left: 0.2em;
+
+}
+
+#registrarpedido {
+
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 5em;
+
+}
+
+.fa-solid.fa-plus.fa-sm {
+
+    color: #22df80;
+
+}
+
+button:hover,
+#adicionarproduto:hover,
+#registrarpedido:enabled:hover {
+
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+}
+
+button:disabled,
+#registrarpedido:disabled {
+
+    cursor: not-allowed;
+    background-color: #cbbaff;
+
+}
