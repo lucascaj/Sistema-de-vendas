@@ -1,7 +1,18 @@
 
 # Sistema de vendas
 
-Se trata de um projeto pessoal, que consiste em um sistema de vendas com divisão de cargos(Operador, Gerente e Diretor). Foi criado com o objetivo de aprender mais sobre PHP, MySQL, Javascript, segurança etc. Abaixo se encontra a página de login, e depois de logar, o painel reunindo todos os recursos:<br><br/>
+Se trata de um projeto pessoal, que consiste em um sistema de vendas com divisão de cargos(Operador, Gerente e Diretor). Foi criado com o objetivo de aprender mais sobre PHP, MySQL, Javascript, segurança etc. Pode ser testado em https://sistemadevendas.free.nf/index.php, com diferentes cargos a partir dessas contas:
+
+Login: visitante_op
+Senha: 1234
+
+Login: visitante_ger
+Senha: 1234
+
+Login visitante_dir
+Senha: 1234
+
+Abaixo se encontra a página de login, e depois de logar, o painel reunindo todos os recursos:<br><br/>
 
 <img width="1920" height="919" alt="sistemadevendas free nf_index php" src="https://github.com/user-attachments/assets/87dae866-8144-46aa-ab61-3e87398372a0" />
 
