@@ -1,7 +1,7 @@
 
 # Sistema de vendas
 
-Se trata de um projeto pessoal, que consiste em um sistema de vendas com divisão de cargos(Operador, Gerente e Diretor). Foi criado com o objetivo de aprender mais sobre PHP, MySQL, Javascript, segurança etc. Pode ser testado em https://sistemadevendas.free.nf/index.php, com diferentes cargos a partir dessas contas:
+Se trata de um projeto pessoal, que consiste em um sistema de vendas com divisão de cargos(Operador, Gerente e Diretor). Foi criado com o objetivo de aprender mais sobre PHP, MySQL, segurança etc. Pode ser testado em https://sistemadevendas.free.nf/index.php, com diferentes cargos a partir dessas contas:
 
 <div align="center">
 
